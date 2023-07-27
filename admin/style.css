@@ -1,0 +1,331 @@
+
+/*admin dashboard css*/
+
+button {
+  padding: 10px;
+  margin-top: 10px;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.header-text h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.header-text p {
+  font-size: 16px;
+  margin: 0;
+}
+
+nav {
+  background-color: #eee;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  position: relative;
+}
+
+.search-form {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+}
+
+.search-input {
+  padding: 5px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+}
+
+.search-button {
+  padding: 5px 10px;
+  background-color: #ccc;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.main-content {
+  /* Styling for the main content goes here */
+}
+
+
+  /* Styling for table */
+.statistics {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.statistics h2 {
+  color: #333;
+}
+
+.table-container {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f1f1f1;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+/* ctrl css */
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 16px; /* Increase font size for better readability */
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+/* Navigation */
+nav {
+  background-color: #444;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* Main Content */
+.main {
+  margin: 20px;
+}
+
+/* Entry Form */
+.entry-form {
+  margin-bottom: 20px;
+  padding: 20px; /* Add padding for spacing */
+  background-color: #f9f9f9; /* Add a light background color */
+  border-radius: 5px; /* Add rounded corners */
+}
+
+.entry-form h2 {
+  margin-bottom: 10px;
+}
+
+.entry-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.entry-form input {
+  width: 100%;
+  padding: 10px; /* Increase padding for better input field appearance */
+  margin-bottom: 10px;
+  border: 1px solid #ccc; /* Add a border to input fields */
+  border-radius: 3px; /* Add rounded corners */
+}
+
+.entry-form button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px; /* Increase padding for better button appearance */
+  border: none;
+  cursor: pointer;
+  border-radius: 5px; /* Add rounded corners */
+}
+
+/* Entry List */
+.entry-list h2 {
+  margin-bottom: 10px;
+}
+
+.entry-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.entry-list table th,
+.entry-list table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+.entry-list table th {
+  background-color: #444;
+  color: #fff;
+}
+
+.entry-list table button {
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px; /* Add rounded corners */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.container {
+  width: 400px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+form {
+  text-align: center;
+}
+
+h4 {
+  margin-top: 0;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#password-toggle {
+  cursor: pointer;
+}
+
+.btn {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.msg {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 10px;
+}

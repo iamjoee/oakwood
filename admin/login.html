@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>form test</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h3>dashboard login</h3>
+  </header>
+
+  <section class="container">
+    <form id="my-form" method="get" onsubmit="validateLogin(event)">
+    
+      <div id="login-error" class="msg"></div>
+      <div>
+        <input type="text" id="username" placeholder="user">
+      </div>
+      <div>
+        <input type="password" id="password" placeholder="password">
+        <span id="password-toggle" onclick="togglePasswordVisibility()">👁️</span>
+      </div>
+      <input class="btn" type="submit" value="Submit">
+    </form>
+    <ol id="users"></ol>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
